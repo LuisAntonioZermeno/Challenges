@@ -1,0 +1,33 @@
+[2.243s] Invoking command in '/home/mcr2/ros2_ws/src/build/kinematics_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/kinematics_interface -- -j4 -l4
+[2.768s] [35m[1mConsolidate compiler generated dependencies of target kinematics_interface[0m
+[2.896s] [100%] Built target kinematics_interface
+[2.988s] Invoked command in '/home/mcr2/ros2_ws/src/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/kinematics_interface -- -j4 -l4
+[3.311s] Invoking command in '/home/mcr2/ros2_ws/src/build/kinematics_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/kinematics_interface
+[3.805s] -- Install configuration: ""
+[3.805s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/include/kinematics_interface
+[3.806s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/include/kinematics_interface/kinematics_interface
+[3.806s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/include/kinematics_interface/kinematics_interface/visibility_control.h
+[3.806s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/include/kinematics_interface/kinematics_interface/kinematics_interface.hpp
+[3.807s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/lib/libkinematics_interface.so
+[3.807s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/environment/library_path.sh
+[3.807s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/environment/library_path.dsv
+[3.807s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/ament_index/resource_index/package_run_dependencies/kinematics_interface
+[3.808s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/ament_index/resource_index/parent_prefix_path/kinematics_interface
+[3.808s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.sh
+[3.808s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.dsv
+[3.808s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/environment/path.sh
+[3.808s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/environment/path.dsv
+[3.809s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/local_setup.bash
+[3.809s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/local_setup.sh
+[3.809s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/local_setup.zsh
+[3.809s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/local_setup.dsv
+[3.809s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/package.dsv
+[3.840s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/ament_index/resource_index/packages/kinematics_interface
+[3.856s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport.cmake
+[3.856s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport-noconfig.cmake
+[3.856s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_targets-extras.cmake
+[3.857s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.857s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig.cmake
+[3.857s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig-version.cmake
+[3.857s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/package.xml
+[3.909s] Invoked command in '/home/mcr2/ros2_ws/src/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/kinematics_interface

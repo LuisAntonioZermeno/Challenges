@@ -1,0 +1,92 @@
+[0.657s] Invoking command in '/home/mcr2/ros2_ws/src/build/kinematics_interface_kdl': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/kinematics_interface:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/mcr2/ros2_ws/src/ros-controls/kinematics_interface/kinematics_interface_kdl -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/kinematics_interface_kdl
+[1.034s] -- The CXX compiler identification is GNU 11.4.0
+[1.147s] -- Detecting CXX compiler ABI info
+[1.833s] -- Detecting CXX compiler ABI info - done
+[1.887s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.896s] -- Detecting CXX compile features
+[1.896s] -- Detecting CXX compile features - done
+[1.939s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.824s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.509s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[3.719s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.739s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.757s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.809s] -- Found kinematics_interface: 1.0.0 (/home/mcr2/ros2_ws/src/install/kinematics_interface/share/kinematics_interface/cmake)
+[4.093s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.122s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.197s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.284s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.811s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.829s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.655s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.821s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.093s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.178s] -- Looking for C++ include pthread.h
+[6.619s] -- Looking for C++ include pthread.h - found
+[6.620s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.050s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.053s] -- Found Threads: TRUE  
+[8.353s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[8.673s] -- Found tf2_eigen_kdl: 0.25.6 (/opt/ros/humble/share/tf2_eigen_kdl/cmake)
+[9.069s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[9.071s] -- Found ros2_control_test_assets: 2.40.0 (/home/mcr2/ros2_ws/src/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[9.092s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[9.544s] -- The C compiler identification is GNU 11.4.0
+[9.566s] -- Detecting C compiler ABI info
+[9.900s] -- Detecting C compiler ABI info - done
+[9.934s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.936s] -- Detecting C compile features
+[9.938s] -- Detecting C compile features - done
+[9.968s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[9.972s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.530s] -- Configuring done
+[10.684s] -- Generating done
+[10.694s] -- Build files have been written to: /home/mcr2/ros2_ws/src/build/kinematics_interface_kdl
+[10.758s] Invoked command in '/home/mcr2/ros2_ws/src/build/kinematics_interface_kdl' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/kinematics_interface:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/mcr2/ros2_ws/src/ros-controls/kinematics_interface/kinematics_interface_kdl -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/kinematics_interface_kdl
+[10.760s] Invoking command in '/home/mcr2/ros2_ws/src/build/kinematics_interface_kdl': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/kinematics_interface:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/kinematics_interface_kdl -- -j4 -l4
+[11.022s] [ 11%] [32mBuilding CXX object CMakeFiles/kinematics_interface_kdl.dir/src/kinematics_interface_kdl.cpp.o[0m
+[43.778s] [ 22%] [32m[1mLinking CXX shared library libkinematics_interface_kdl.so[0m
+[45.022s] [ 22%] Built target kinematics_interface_kdl
+[45.180s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[58.685s] [ 44%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[67.914s] [ 55%] [32m[1mLinking CXX static library libgmock.a[0m
+[68.421s] [ 55%] Built target gmock
+[68.556s] [ 66%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[74.093s] [ 77%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[74.366s] [ 77%] Built target gmock_main
+[74.556s] [ 88%] [32mBuilding CXX object CMakeFiles/test_kinematics_interface_kdl.dir/test/test_kinematics_interface_kdl.cpp.o[0m
+[104.077s] [100%] [32m[1mLinking CXX executable test_kinematics_interface_kdl[0m
+[105.331s] [100%] Built target test_kinematics_interface_kdl
+[105.369s] Invoked command in '/home/mcr2/ros2_ws/src/build/kinematics_interface_kdl' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/kinematics_interface:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/kinematics_interface_kdl -- -j4 -l4
+[105.542s] Invoking command in '/home/mcr2/ros2_ws/src/build/kinematics_interface_kdl': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/kinematics_interface:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/kinematics_interface_kdl
+[105.572s] -- Install configuration: ""
+[105.573s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/kinematics_interface_kdl.xml
+[105.576s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/include/kinematics_interface_kdl
+[105.576s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/include/kinematics_interface_kdl/kinematics_interface_kdl
+[105.577s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/include/kinematics_interface_kdl/kinematics_interface_kdl/kinematics_interface_kdl.hpp
+[105.577s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/lib/libkinematics_interface_kdl.so
+[105.590s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/lib/libkinematics_interface_kdl.so" to ""
+[105.590s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/library_path.sh
+[105.591s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/library_path.dsv
+[105.592s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/ament_index/resource_index/package_run_dependencies/kinematics_interface_kdl
+[105.592s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/ament_index/resource_index/parent_prefix_path/kinematics_interface_kdl
+[105.593s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/ament_prefix_path.sh
+[105.594s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/ament_prefix_path.dsv
+[105.594s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/path.sh
+[105.595s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/path.dsv
+[105.595s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.bash
+[105.596s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.sh
+[105.597s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.zsh
+[105.597s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.dsv
+[105.598s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/package.dsv
+[105.598s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/ament_index/resource_index/packages/kinematics_interface_kdl
+[105.599s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/ament_index/resource_index/kinematics_interface__pluginlib__plugin/kinematics_interface_kdl
+[105.600s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/export_kinematics_interface_kdlExport.cmake
+[105.600s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/export_kinematics_interface_kdlExport-noconfig.cmake
+[105.601s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/ament_cmake_export_targets-extras.cmake
+[105.602s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/ament_cmake_export_dependencies-extras.cmake
+[105.603s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/kinematics_interface_kdlConfig.cmake
+[105.603s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/kinematics_interface_kdlConfig-version.cmake
+[105.604s] -- Installing: /home/mcr2/ros2_ws/src/install/kinematics_interface_kdl/share/kinematics_interface_kdl/package.xml
+[105.629s] Invoked command in '/home/mcr2/ros2_ws/src/build/kinematics_interface_kdl' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/kinematics_interface:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/kinematics_interface_kdl

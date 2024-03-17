@@ -1,0 +1,6 @@
+Invoking command in '/home/mcr2/ros2_ws/src/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mcr2/ros2_ws/src/ros-controls/control_msgs/control_msgs -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/control_msgs
+Invoked command in '/home/mcr2/ros2_ws/src/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mcr2/ros2_ws/src/ros-controls/control_msgs/control_msgs -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/control_msgs
+Invoking command in '/home/mcr2/ros2_ws/src/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/control_msgs -- -j4 -l4
+Invoked command in '/home/mcr2/ros2_ws/src/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/control_msgs -- -j4 -l4
+Invoking command in '/home/mcr2/ros2_ws/src/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/control_msgs
+Invoked command in '/home/mcr2/ros2_ws/src/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/control_msgs

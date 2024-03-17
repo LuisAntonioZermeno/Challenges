@@ -1,0 +1,23 @@
+[6.105s] Invoking command in '/home/mcr2/ros2_ws/src/ros-controls/ros2_controllers/rqt_joint_trajectory_controller': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/prefix_override:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_joint_trajectory_controller build --build-base /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build install --record /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/install.log --single-version-externally-managed
+[7.231s] running egg_info
+[7.235s] writing ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/PKG-INFO
+[7.240s] writing dependency_links to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+[7.241s] writing entry points to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/entry_points.txt
+[7.249s] writing requirements to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/requires.txt
+[7.249s] writing top-level names to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/top_level.txt
+[7.265s] reading manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[7.283s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.284s]   warnings.warn(
+[7.284s] writing manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[7.284s] running build
+[7.285s] running build_py
+[7.285s] running install
+[7.285s] running install_lib
+[7.302s] running install_data
+[7.315s] running install_egg_info
+[7.317s] removing '/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller-2.33.0-py3.10.egg-info' (and everything under it)
+[7.321s] Copying ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info to /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller-2.33.0-py3.10.egg-info
+[7.358s] running install_scripts
+[7.434s] Installing rqt_joint_trajectory_controller script to /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+[7.437s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/install.log'
+[7.548s] Invoked command in '/home/mcr2/ros2_ws/src/ros-controls/ros2_controllers/rqt_joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/prefix_override:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_joint_trajectory_controller build --build-base /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build install --record /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/install.log --single-version-externally-managed

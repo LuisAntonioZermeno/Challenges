@@ -1,0 +1,44 @@
+[10.037s] Invoking command in '/home/mcr2/ros2_ws/src/ros-controls/ros2_controllers/ros2_controllers_test_nodes': PYTHONPATH=/home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/prefix_override:/home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_controllers_test_nodes build --build-base /home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/build install --record /home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed
+[11.776s] running egg_info
+[11.778s] creating ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info
+[11.779s] writing ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/PKG-INFO
+[11.781s] writing dependency_links to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[11.781s] writing entry points to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/entry_points.txt
+[11.782s] writing requirements to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/requires.txt
+[11.782s] writing top-level names to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/top_level.txt
+[11.783s] writing manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[11.799s] reading manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[11.808s] writing manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[11.809s] running build
+[11.809s] running build_py
+[11.809s] creating /home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/build
+[11.810s] creating /home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/build/lib
+[11.810s] creating /home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[11.811s] copying ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[11.823s] copying ros2_controllers_test_nodes/__init__.py -> /home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[11.824s] copying ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[11.825s] running install
+[11.829s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.829s]   warnings.warn(
+[11.830s] running install_lib
+[11.832s] creating /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[11.833s] copying /home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[11.833s] copying /home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/__init__.py -> /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[11.833s] copying /home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[11.835s] byte-compiling /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-310.pyc
+[11.838s] byte-compiling /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/__init__.py to __init__.cpython-310.pyc
+[11.838s] byte-compiling /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py to publisher_joint_trajectory_controller.cpython-310.pyc
+[11.842s] running install_data
+[11.844s] creating /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/share/ament_index
+[11.845s] creating /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/share/ament_index/resource_index
+[11.845s] creating /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[11.846s] copying resource/ros2_controllers_test_nodes -> /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[11.846s] copying package.xml -> /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[11.847s] creating /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/configs
+[11.847s] running install_egg_info
+[11.852s] Copying ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info to /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes-2.33.0-py3.10.egg-info
+[11.856s] running install_scripts
+[11.940s] Installing publisher_forward_position_controller script to /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[11.940s] Installing publisher_joint_trajectory_controller script to /home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[11.942s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/install.log'
+[12.100s] Invoked command in '/home/mcr2/ros2_ws/src/ros-controls/ros2_controllers/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/prefix_override:/home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_controllers_test_nodes build --build-base /home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/build install --record /home/mcr2/ros2_ws/src/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed

@@ -1,0 +1,24 @@
+[5.205s] Invoking command in '/home/mcr2/ros2_ws/src/courseworks': PYTHONPATH=/home/mcr2/ros2_ws/src/build/courseworks/prefix_override:/home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/courseworks build --build-base /home/mcr2/ros2_ws/src/build/courseworks/build install --record /home/mcr2/ros2_ws/src/build/courseworks/install.log --single-version-externally-managed
+[7.032s] running egg_info
+[7.034s] writing ../build/courseworks/courseworks.egg-info/PKG-INFO
+[7.034s] writing dependency_links to ../build/courseworks/courseworks.egg-info/dependency_links.txt
+[7.034s] writing entry points to ../build/courseworks/courseworks.egg-info/entry_points.txt
+[7.034s] writing requirements to ../build/courseworks/courseworks.egg-info/requires.txt
+[7.035s] writing top-level names to ../build/courseworks/courseworks.egg-info/top_level.txt
+[7.035s] reading manifest file '../build/courseworks/courseworks.egg-info/SOURCES.txt'
+[7.067s] writing manifest file '../build/courseworks/courseworks.egg-info/SOURCES.txt'
+[7.067s] running build
+[7.068s] running build_py
+[7.068s] running install
+[7.068s] running install_lib
+[7.068s] running install_data
+[7.069s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.069s]   warnings.warn(
+[7.069s] running install_egg_info
+[7.069s] removing '/home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks-0.0.0-py3.10.egg-info' (and everything under it)
+[7.086s] Copying ../build/courseworks/courseworks.egg-info to /home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks-0.0.0-py3.10.egg-info
+[7.086s] running install_scripts
+[7.217s] Installing process script to /home/mcr2/ros2_ws/src/install/courseworks/lib/courseworks
+[7.219s] Installing signal_generator script to /home/mcr2/ros2_ws/src/install/courseworks/lib/courseworks
+[7.222s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/courseworks/install.log'
+[8.259s] Invoked command in '/home/mcr2/ros2_ws/src/courseworks' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/courseworks/prefix_override:/home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/courseworks build --build-base /home/mcr2/ros2_ws/src/build/courseworks/build install --record /home/mcr2/ros2_ws/src/build/courseworks/install.log --single-version-externally-managed

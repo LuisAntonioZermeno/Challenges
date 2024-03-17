@@ -1,0 +1,48 @@
+[9.176s] Invoking command in '/home/mcr2/ros2_ws/src/basic_comm_params': PYTHONPATH=/home/mcr2/ros2_ws/src/build/basic_comm_params/prefix_override:/home/mcr2/ros2_ws/src/install/basic_comm_params/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/basic_comm_params build --build-base /home/mcr2/ros2_ws/src/build/basic_comm_params/build install --record /home/mcr2/ros2_ws/src/build/basic_comm_params/install.log --single-version-externally-managed
+[11.150s] running egg_info
+[11.151s] creating ../build/basic_comm_params/basic_comm_params.egg-info
+[11.151s] writing ../build/basic_comm_params/basic_comm_params.egg-info/PKG-INFO
+[11.151s] writing dependency_links to ../build/basic_comm_params/basic_comm_params.egg-info/dependency_links.txt
+[11.152s] writing entry points to ../build/basic_comm_params/basic_comm_params.egg-info/entry_points.txt
+[11.152s] writing requirements to ../build/basic_comm_params/basic_comm_params.egg-info/requires.txt
+[11.152s] writing top-level names to ../build/basic_comm_params/basic_comm_params.egg-info/top_level.txt
+[11.152s] writing manifest file '../build/basic_comm_params/basic_comm_params.egg-info/SOURCES.txt'
+[11.211s] reading manifest file '../build/basic_comm_params/basic_comm_params.egg-info/SOURCES.txt'
+[11.211s] writing manifest file '../build/basic_comm_params/basic_comm_params.egg-info/SOURCES.txt'
+[11.211s] running build
+[11.212s] running build_py
+[11.212s] creating /home/mcr2/ros2_ws/src/build/basic_comm_params/build
+[11.212s] creating /home/mcr2/ros2_ws/src/build/basic_comm_params/build/lib
+[11.225s] creating /home/mcr2/ros2_ws/src/build/basic_comm_params/build/lib/basic_comm_params
+[11.225s] copying basic_comm_params/talker_params.py -> /home/mcr2/ros2_ws/src/build/basic_comm_params/build/lib/basic_comm_params
+[11.226s] copying basic_comm_params/node_params.py -> /home/mcr2/ros2_ws/src/build/basic_comm_params/build/lib/basic_comm_params
+[11.226s] copying basic_comm_params/__init__.py -> /home/mcr2/ros2_ws/src/build/basic_comm_params/build/lib/basic_comm_params
+[11.226s] running install
+[11.226s] running install_lib
+[11.226s] creating /home/mcr2/ros2_ws/src/install/basic_comm_params/lib/python3.10/site-packages/basic_comm_params
+[11.227s] copying /home/mcr2/ros2_ws/src/build/basic_comm_params/build/lib/basic_comm_params/talker_params.py -> /home/mcr2/ros2_ws/src/install/basic_comm_params/lib/python3.10/site-packages/basic_comm_params
+[11.227s] copying /home/mcr2/ros2_ws/src/build/basic_comm_params/build/lib/basic_comm_params/node_params.py -> /home/mcr2/ros2_ws/src/install/basic_comm_params/lib/python3.10/site-packages/basic_comm_params
+[11.227s] copying /home/mcr2/ros2_ws/src/build/basic_comm_params/build/lib/basic_comm_params/__init__.py -> /home/mcr2/ros2_ws/src/install/basic_comm_params/lib/python3.10/site-packages/basic_comm_params
+[11.227s] byte-compiling /home/mcr2/ros2_ws/src/install/basic_comm_params/lib/python3.10/site-packages/basic_comm_params/talker_params.py to talker_params.cpython-310.pyc
+[11.227s] byte-compiling /home/mcr2/ros2_ws/src/install/basic_comm_params/lib/python3.10/site-packages/basic_comm_params/node_params.py to node_params.cpython-310.pyc
+[11.227s] byte-compiling /home/mcr2/ros2_ws/src/install/basic_comm_params/lib/python3.10/site-packages/basic_comm_params/__init__.py to __init__.cpython-310.pyc
+[11.227s] running install_data
+[11.228s] creating /home/mcr2/ros2_ws/src/install/basic_comm_params/share/ament_index
+[11.228s] creating /home/mcr2/ros2_ws/src/install/basic_comm_params/share/ament_index/resource_index
+[11.228s] creating /home/mcr2/ros2_ws/src/install/basic_comm_params/share/ament_index/resource_index/packages
+[11.228s] copying resource/basic_comm_params -> /home/mcr2/ros2_ws/src/install/basic_comm_params/share/ament_index/resource_index/packages
+[11.228s] copying package.xml -> /home/mcr2/ros2_ws/src/install/basic_comm_params/share/basic_comm_params
+[11.228s] creating /home/mcr2/ros2_ws/src/install/basic_comm_params/share/basic_comm_params/launch
+[11.229s] copying launch/chatter_params_launch.py -> /home/mcr2/ros2_ws/src/install/basic_comm_params/share/basic_comm_params/launch
+[11.229s] copying launch/node_params_launch.py -> /home/mcr2/ros2_ws/src/install/basic_comm_params/share/basic_comm_params/launch
+[11.229s] creating /home/mcr2/ros2_ws/src/install/basic_comm_params/share/basic_comm_params/config
+[11.229s] copying config/params.yaml -> /home/mcr2/ros2_ws/src/install/basic_comm_params/share/basic_comm_params/config
+[11.230s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.231s]   warnings.warn(
+[11.256s] running install_egg_info
+[11.293s] Copying ../build/basic_comm_params/basic_comm_params.egg-info to /home/mcr2/ros2_ws/src/install/basic_comm_params/lib/python3.10/site-packages/basic_comm_params-0.0.0-py3.10.egg-info
+[11.302s] running install_scripts
+[11.468s] Installing node_params script to /home/mcr2/ros2_ws/src/install/basic_comm_params/lib/basic_comm_params
+[11.468s] Installing talker_params script to /home/mcr2/ros2_ws/src/install/basic_comm_params/lib/basic_comm_params
+[11.469s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/basic_comm_params/install.log'
+[11.649s] Invoked command in '/home/mcr2/ros2_ws/src/basic_comm_params' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/basic_comm_params/prefix_override:/home/mcr2/ros2_ws/src/install/basic_comm_params/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/basic_comm_params build --build-base /home/mcr2/ros2_ws/src/build/basic_comm_params/build install --record /home/mcr2/ros2_ws/src/build/basic_comm_params/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+[console_scripts]
+node_params = basic_comm_params.node_params:main
+talker_params = basic_comm_params.talker_params:main
+

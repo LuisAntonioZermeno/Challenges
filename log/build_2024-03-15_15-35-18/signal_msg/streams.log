@@ -1,0 +1,251 @@
+[0.409s] Invoking command in '/home/mcr2/ros2_ws/src/build/signal_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/mcr2/ros2_ws/src/install/rqt_controller_manager:/home/mcr2/ros2_ws/src/install/ros2controlcli:/home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/home/mcr2/ros2_ws/src/install/basic_comm_params:/opt/ros/humble /usr/bin/cmake /home/mcr2/ros2_ws/src/signal_msg -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/signal_msg
+[1.408s] -- The C compiler identification is GNU 11.4.0
+[2.250s] -- The CXX compiler identification is GNU 11.4.0
+[2.328s] -- Detecting C compiler ABI info
+[3.148s] -- Detecting C compiler ABI info - done
+[3.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.149s] -- Detecting C compile features
+[3.150s] -- Detecting C compile features - done
+[3.161s] -- Detecting CXX compiler ABI info
+[3.975s] -- Detecting CXX compiler ABI info - done
+[3.976s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.977s] -- Detecting CXX compile features
+[3.977s] -- Detecting CXX compile features - done
+[4.082s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.436s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.106s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[7.981s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.104s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.284s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.427s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.806s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.508s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[13.146s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[16.554s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.771s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.802s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[17.886s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[18.303s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[18.303s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[18.303s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[18.315s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[18.473s] -- Found PythonExtra: .so  
+[19.422s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[20.146s] -- Added test 'lint_cmake' to check CMake code style
+[20.175s] -- Added test 'xmllint' to check XML markup files
+[20.226s] -- Configuring done
+[20.354s] -- Generating done
+[20.389s] -- Build files have been written to: /home/mcr2/ros2_ws/src/build/signal_msg
+[20.436s] Invoked command in '/home/mcr2/ros2_ws/src/build/signal_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/mcr2/ros2_ws/src/install/rqt_controller_manager:/home/mcr2/ros2_ws/src/install/ros2controlcli:/home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/home/mcr2/ros2_ws/src/install/basic_comm_params:/opt/ros/humble /usr/bin/cmake /home/mcr2/ros2_ws/src/signal_msg -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/signal_msg
+[20.442s] Invoking command in '/home/mcr2/ros2_ws/src/build/signal_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/mcr2/ros2_ws/src/install/rqt_controller_manager:/home/mcr2/ros2_ws/src/install/ros2controlcli:/home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/home/mcr2/ros2_ws/src/install/basic_comm_params:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/signal_msg -- -j4 -l4
+[20.663s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[21.535s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[21.673s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[21.695s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[21.727s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[21.804s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[21.839s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.245s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[24.193s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[27.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[28.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[28.329s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[28.476s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[28.476s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[28.477s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[28.863s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[28.921s] -- Added test 'lint_cmake' to check CMake code style
+[28.926s] -- Added test 'xmllint' to check XML markup files
+[28.934s] -- Configuring done
+[29.140s] -- Generating done
+[29.180s] -- Build files have been written to: /home/mcr2/ros2_ws/src/build/signal_msg
+[29.508s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[30.736s] [  3%] Built target signal_msg__cpp
+[30.968s] [  3%] Built target ament_cmake_python_copy_signal_msg
+[31.093s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[33.002s] [  9%] [32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/signal_msg/msg/detail/dds_fastrtps/signal_decomposed__type_support.cpp.o[0m
+[37.068s] [ 12%] [32m[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[37.906s] [ 12%] Built target signal_msg__rosidl_typesupport_fastrtps_cpp
+[38.030s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[39.111s] [ 19%] [32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/signal_msg/msg/detail/signal_decomposed__type_support.cpp.o[0m
+[40.239s] [ 22%] [32m[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_introspection_cpp.so[0m
+[40.491s] [ 22%] Built target signal_msg__rosidl_typesupport_introspection_cpp
+[41.280s] running egg_info
+[41.281s] creating signal_msg.egg-info
+[41.283s] writing signal_msg.egg-info/PKG-INFO
+[41.285s] writing dependency_links to signal_msg.egg-info/dependency_links.txt
+[41.286s] writing top-level names to signal_msg.egg-info/top_level.txt
+[41.287s] writing manifest file 'signal_msg.egg-info/SOURCES.txt'
+[41.289s] reading manifest file 'signal_msg.egg-info/SOURCES.txt'
+[41.292s] writing manifest file 'signal_msg.egg-info/SOURCES.txt'
+[41.397s] [ 22%] Built target ament_cmake_python_build_signal_msg_egg
+[41.483s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[42.559s] [ 29%] [32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/signal_msg/msg/signal_decomposed__type_support.cpp.o[0m
+[43.618s] [ 32%] [32m[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_cpp.so[0m
+[43.901s] [ 32%] Built target signal_msg__rosidl_typesupport_cpp
+[43.964s] [ 35%] [34m[1mGenerating C code for ROS interfaces[0m
+[45.039s] [ 38%] [32mBuilding C object CMakeFiles/signal_msg__rosidl_generator_c.dir/rosidl_generator_c/signal_msg/msg/detail/signal_decomposed__functions.c.o[0m
+[45.269s] [ 41%] [32m[1mLinking C shared library libsignal_msg__rosidl_generator_c.so[0m
+[45.439s] [ 41%] Built target signal_msg__rosidl_generator_c
+[45.507s] [ 45%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[46.221s] [ 48%] [32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/signal_msg/msg/detail/signal_decomposed__type_support_c.cpp.o[0m
+[47.038s] [ 51%] [32m[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_fastrtps_c.so[0m
+[47.299s] [ 51%] Built target signal_msg__rosidl_typesupport_fastrtps_c
+[47.370s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[47.954s] [ 58%] [32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/signal_msg/msg/signal_decomposed__type_support.cpp.o[0m
+[48.117s] [ 61%] [32m[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_c.so[0m
+[48.323s] [ 61%] Built target signal_msg__rosidl_typesupport_c
+[48.405s] [ 64%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[49.201s] [ 67%] [32mBuilding C object CMakeFiles/signal_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/signal_msg/msg/detail/signal_decomposed__type_support.c.o[0m
+[49.332s] [ 70%] [32m[1mLinking C shared library libsignal_msg__rosidl_typesupport_introspection_c.so[0m
+[49.493s] [ 70%] Built target signal_msg__rosidl_typesupport_introspection_c
+[49.608s] gmake[2]: Warning: File '/home/mcr2/ros2_ws/src/signal_msg/msg/SignalDecomposed.msg' has modification time 21433 s in the future
+[49.611s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[49.692s] [ 70%] Built target signal_msg
+[49.887s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[51.658s] [ 74%] Built target signal_msg__py
+[51.836s] [ 77%] [32mBuilding C object CMakeFiles/signal_msg__rosidl_generator_py.dir/rosidl_generator_py/signal_msg/msg/_signal_decomposed_s.c.o[0m
+[52.586s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/signal_msg/libsignal_msg__rosidl_generator_py.so[0m
+[52.962s] [ 80%] Built target signal_msg__rosidl_generator_py
+[53.205s] [ 83%] [32mBuilding C object CMakeFiles/signal_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/signal_msg/_signal_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[53.943s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[54.256s] [ 87%] Built target signal_msg__rosidl_typesupport_fastrtps_c__pyext
+[54.689s] [ 90%] [32mBuilding C object CMakeFiles/signal_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/signal_msg/_signal_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[55.343s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[55.682s] [ 93%] Built target signal_msg__rosidl_typesupport_c__pyext
+[56.030s] [ 96%] [32mBuilding C object CMakeFiles/signal_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/signal_msg/_signal_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[56.633s] [100%] [32m[1mLinking C shared library rosidl_generator_py/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[56.942s] [100%] Built target signal_msg__rosidl_typesupport_introspection_c__pyext
+[57.045s] Invoked command in '/home/mcr2/ros2_ws/src/build/signal_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/mcr2/ros2_ws/src/install/rqt_controller_manager:/home/mcr2/ros2_ws/src/install/ros2controlcli:/home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/home/mcr2/ros2_ws/src/install/basic_comm_params:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/signal_msg -- -j4 -l4
+[58.554s] Invoking command in '/home/mcr2/ros2_ws/src/build/signal_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/mcr2/ros2_ws/src/install/rqt_controller_manager:/home/mcr2/ros2_ws/src/install/ros2controlcli:/home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/home/mcr2/ros2_ws/src/install/basic_comm_params:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/signal_msg
+[58.641s] -- Install configuration: ""
+[58.641s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/ament_index/resource_index/rosidl_interfaces/signal_msg
+[58.641s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg
+[58.642s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg
+[58.642s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/signal_decomposed.h
+[58.679s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+[58.680s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__functions.h
+[58.680s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.h
+[58.681s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__functions.c
+[58.681s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__struct.h
+[58.681s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_generator_c__visibility_control.h
+[58.681s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/environment/library_path.sh
+[58.682s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/environment/library_path.dsv
+[58.682s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_generator_c.so
+[58.682s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_generator_c.so" to ""
+[58.683s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg
+[58.683s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg
+[58.683s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[58.683s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+[58.683s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_fastrtps_c.h
+[58.684s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_c.so
+[58.684s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[58.684s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg
+[58.684s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg
+[58.684s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+[58.684s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__struct.hpp
+[58.685s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__traits.hpp
+[58.685s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__builder.hpp
+[58.685s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/signal_decomposed.hpp
+[58.685s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg
+[58.685s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg
+[58.685s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[58.686s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+[58.686s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/dds_fastrtps
+[58.686s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_fastrtps_cpp.hpp
+[58.686s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_cpp.so
+[58.723s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[58.724s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg
+[58.724s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg
+[58.725s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[58.725s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+[58.725s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_introspection_c.h
+[58.725s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.c
+[58.726s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_c.so
+[58.726s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_c.so" to ""
+[58.726s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_c.so
+[58.726s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_c.so" to ""
+[58.726s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg
+[58.727s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg
+[58.727s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+[58.727s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.cpp
+[58.727s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_introspection_cpp.hpp
+[58.727s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_cpp.so
+[58.728s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[58.739s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_cpp.so
+[58.745s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_cpp.so" to ""
+[58.745s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/environment/pythonpath.sh
+[58.746s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/environment/pythonpath.dsv
+[58.746s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info
+[58.746s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[58.752s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/top_level.txt
+[58.752s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[58.753s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[58.753s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg
+[58.753s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[58.753s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[58.759s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[58.816s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[58.816s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_c.c
+[58.817s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_introspection_c.c
+[58.817s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/libsignal_msg__rosidl_generator_py.so
+[58.817s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg
+[58.817s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/_signal_decomposed_s.c
+[58.818s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/_signal_decomposed.py
+[58.818s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/__init__.py
+[58.818s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/__init__.py
+[59.045s] Listing '/home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg'...
+[59.046s] Compiling '/home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/__init__.py'...
+[59.046s] Listing '/home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg'...
+[59.046s] Compiling '/home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/__init__.py'...
+[59.046s] Compiling '/home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/_signal_decomposed.py'...
+[59.050s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[59.051s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[59.051s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[59.053s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[59.054s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[59.055s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[59.055s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_generator_py.so
+[59.056s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/signal_msg/lib/libsignal_msg__rosidl_generator_py.so" to ""
+[59.057s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/msg/SignalDecomposed.idl
+[59.057s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/msg/SignalDecomposed.msg
+[59.058s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/ament_index/resource_index/package_run_dependencies/signal_msg
+[59.058s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/ament_index/resource_index/parent_prefix_path/signal_msg
+[59.064s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/environment/ament_prefix_path.sh
+[59.064s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/environment/ament_prefix_path.dsv
+[59.064s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/environment/path.sh
+[59.065s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/environment/path.dsv
+[59.066s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/local_setup.bash
+[59.066s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/local_setup.sh
+[59.066s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/local_setup.zsh
+[59.070s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/local_setup.dsv
+[59.071s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/package.dsv
+[59.071s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/ament_index/resource_index/packages/signal_msg
+[59.076s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cExport.cmake
+[59.076s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cExport-noconfig.cmake
+[59.077s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[59.078s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[59.086s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cppExport.cmake
+[59.086s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[59.086s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[59.107s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cExport.cmake
+[59.136s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[59.136s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cExport.cmake
+[59.136s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cExport-noconfig.cmake
+[59.137s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cppExport.cmake
+[59.137s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[59.137s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cppExport.cmake
+[59.137s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[59.137s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_pyExport.cmake
+[59.138s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_pyExport-noconfig.cmake
+[59.138s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/rosidl_cmake-extras.cmake
+[59.140s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.140s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.140s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[59.141s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_targets-extras.cmake
+[59.141s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[59.141s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[59.142s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/signal_msgConfig.cmake
+[59.142s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/cmake/signal_msgConfig-version.cmake
+[59.142s] -- Installing: /home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/package.xml
+[59.760s] Invoked command in '/home/mcr2/ros2_ws/src/build/signal_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/mcr2/ros2_ws/src/install/rqt_controller_manager:/home/mcr2/ros2_ws/src/install/ros2controlcli:/home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/home/mcr2/ros2_ws/src/install/basic_comm_params:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/signal_msg

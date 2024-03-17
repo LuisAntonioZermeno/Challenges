@@ -1,0 +1,120 @@
+[0.432s] Invoking command in '/home/mcr2/ros2_ws/src/build/transmission_interface': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mcr2/ros2_ws/src/ros-controls/ros2_control/transmission_interface -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/transmission_interface
+[0.937s] -- The C compiler identification is GNU 11.4.0
+[1.390s] -- The CXX compiler identification is GNU 11.4.0
+[1.466s] -- Detecting C compiler ABI info
+[2.076s] -- Detecting C compiler ABI info - done
+[2.189s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.189s] -- Detecting C compile features
+[2.189s] -- Detecting C compile features - done
+[2.213s] -- Detecting CXX compiler ABI info
+[2.691s] -- Detecting CXX compiler ABI info - done
+[2.862s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.863s] -- Detecting CXX compile features
+[2.863s] -- Detecting CXX compile features - done
+[2.863s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.493s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.361s] -- Found hardware_interface: 2.40.0 (/home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/cmake)
+[4.654s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.687s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.748s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.892s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.907s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.938s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.962s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.235s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[8.687s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.707s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[8.756s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.792s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[8.854s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[8.900s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.967s] -- Looking for pthread.h
+[9.408s] -- Looking for pthread.h - found
+[9.421s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.843s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.845s] -- Found Threads: TRUE  
+[10.857s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[10.874s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[10.933s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[10.938s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.929s] -- Configuring done
+[13.809s] -- Generating done
+[13.819s] -- Build files have been written to: /home/mcr2/ros2_ws/src/build/transmission_interface
+[13.880s] Invoked command in '/home/mcr2/ros2_ws/src/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mcr2/ros2_ws/src/ros-controls/ros2_control/transmission_interface -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/transmission_interface
+[13.885s] Invoking command in '/home/mcr2/ros2_ws/src/build/transmission_interface': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/transmission_interface -- -j4 -l4
+[14.213s] [  4%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/simple_transmission_loader.cpp.o[0m
+[29.447s] [  8%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/four_bar_linkage_transmission_loader.cpp.o[0m
+[47.696s] [ 13%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o[0m
+[62.644s] [ 17%] [32m[1mLinking CXX shared library libtransmission_interface.so[0m
+[63.504s] [ 17%] Built target transmission_interface
+[63.632s] [ 21%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[77.357s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[87.793s] [ 30%] [32m[1mLinking CXX static library libgmock.a[0m
+[88.863s] [ 30%] Built target gmock
+[88.972s] [ 34%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[95.722s] [ 39%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[96.022s] [ 39%] Built target gmock_main
+[96.114s] [ 43%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[102.851s] [ 47%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[103.929s] [ 47%] Built target test_simple_transmission
+[104.021s] [ 52%] [32mBuilding CXX object CMakeFiles/test_simple_transmission_loader.dir/test/simple_transmission_loader_test.cpp.o[0m
+[115.482s] [ 56%] [32m[1mLinking CXX executable test_simple_transmission_loader[0m
+[116.927s] [ 56%] Built target test_simple_transmission_loader
+[117.009s] [ 60%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission_loader.dir/test/four_bar_linkage_transmission_loader_test.cpp.o[0m
+[128.478s] [ 65%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission_loader[0m
+[130.135s] [ 65%] Built target test_four_bar_linkage_transmission_loader
+[130.241s] [ 69%] [32mBuilding CXX object CMakeFiles/test_differential_transmission_loader.dir/test/differential_transmission_loader_test.cpp.o[0m
+[142.811s] [ 73%] [32m[1mLinking CXX executable test_differential_transmission_loader[0m
+[144.435s] [ 73%] Built target test_differential_transmission_loader
+[144.544s] [ 78%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils_test.cpp.o[0m
+[148.470s] [ 82%] [32m[1mLinking CXX executable test_utils[0m
+[149.544s] [ 82%] Built target test_utils
+[149.643s] [ 86%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission.dir/test/four_bar_linkage_transmission_test.cpp.o[0m
+[149.659s] [ 91%] [32mBuilding CXX object CMakeFiles/test_differential_transmission.dir/test/differential_transmission_test.cpp.o[0m
+[159.392s] [ 95%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[159.750s] [100%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[160.802s] [100%] Built target test_differential_transmission
+[160.952s] [100%] Built target test_four_bar_linkage_transmission
+[160.984s] Invoked command in '/home/mcr2/ros2_ws/src/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/transmission_interface -- -j4 -l4
+[161.265s] Invoking command in '/home/mcr2/ros2_ws/src/build/transmission_interface': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/transmission_interface
+[161.283s] -- Install configuration: ""
+[161.284s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include
+[161.284s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface
+[161.285s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[161.285s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission_loader.hpp
+[161.285s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface/transmission.hpp
+[161.286s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface/visibility_control.h
+[161.286s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[161.287s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp
+[161.287s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface/transmission_loader.hpp
+[161.288s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface/accessor.hpp
+[161.288s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface/exception.hpp
+[161.289s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface/handle.hpp
+[161.289s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[161.289s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface/transmission_interface_exception.hpp
+[161.290s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp
+[161.291s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/ros2_control_plugins.xml
+[161.293s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/lib/libtransmission_interface.so
+[161.296s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/transmission_interface/lib/libtransmission_interface.so" to ""
+[161.297s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+[161.298s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+[161.299s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[161.300s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[161.301s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[161.302s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[161.303s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/environment/path.sh
+[161.304s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[161.304s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/local_setup.bash
+[161.305s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/local_setup.sh
+[161.306s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[161.307s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[161.309s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/package.dsv
+[161.310s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[161.318s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/transmission_interface
+[161.318s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[161.318s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[161.332s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[161.332s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[161.332s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[161.333s] -- Installing: /home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/package.xml
+[161.351s] Invoked command in '/home/mcr2/ros2_ws/src/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/hardware_interface/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/transmission_interface

@@ -1,0 +1,46 @@
+[0.334s] Invoking command in '/home/mcr2/ros2_ws/src/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/mcr2/ros2_ws/src/install/rqt_controller_manager:/home/mcr2/ros2_ws/src/install/ros2controlcli:/home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/home/mcr2/ros2_ws/src/install/basic_comm_params:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/realtime_tools -- -j4 -l4
+[1.221s] [  9%] Built target gmock_main
+[1.365s] [ 19%] Built target realtime_tools
+[1.404s] [ 33%] Built target gmock
+[1.434s] [ 42%] Built target thread_priority
+[2.216s] [ 52%] Built target realtime_box_tests
+[2.328s] [ 61%] Built target realtime_clock_tests
+[2.343s] [ 71%] Built target realtime_publisher_tests_non_polling
+[2.380s] [ 80%] Built target realtime_buffer_tests
+[2.841s] [ 90%] Built target realtime_publisher_tests
+[3.121s] [100%] Built target realtime_server_goal_handle_tests
+[3.388s] Invoked command in '/home/mcr2/ros2_ws/src/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/mcr2/ros2_ws/src/install/rqt_controller_manager:/home/mcr2/ros2_ws/src/install/ros2controlcli:/home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/home/mcr2/ros2_ws/src/install/basic_comm_params:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/realtime_tools -- -j4 -l4
+[5.572s] Invoking command in '/home/mcr2/ros2_ws/src/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/mcr2/ros2_ws/src/install/rqt_controller_manager:/home/mcr2/ros2_ws/src/install/ros2controlcli:/home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/home/mcr2/ros2_ws/src/install/basic_comm_params:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/realtime_tools
+[5.631s] -- Install configuration: ""
+[5.635s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools
+[5.636s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools
+[5.648s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.h
+[5.649s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools/thread_priority.hpp
+[5.676s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.h
+[5.691s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h
+[5.692s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.h
+[5.692s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h
+[5.692s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/lib/librealtime_tools.so
+[5.692s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/lib/libthread_priority.so
+[5.725s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/environment/library_path.sh
+[5.726s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/environment/library_path.dsv
+[5.726s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/ament_index/resource_index/package_run_dependencies/realtime_tools
+[5.726s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/ament_index/resource_index/parent_prefix_path/realtime_tools
+[5.726s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.sh
+[5.726s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.dsv
+[5.727s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/environment/path.sh
+[5.727s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/environment/path.dsv
+[5.727s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/local_setup.bash
+[5.727s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/local_setup.sh
+[5.727s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/local_setup.zsh
+[5.727s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/local_setup.dsv
+[5.727s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/package.dsv
+[5.728s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/ament_index/resource_index/packages/realtime_tools
+[5.739s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport.cmake
+[5.739s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport-noconfig.cmake
+[5.740s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_targets-extras.cmake
+[5.740s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.741s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig.cmake
+[5.741s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig-version.cmake
+[5.742s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/package.xml
+[5.749s] Invoked command in '/home/mcr2/ros2_ws/src/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller:/home/mcr2/ros2_ws/src/install/rqt_controller_manager:/home/mcr2/ros2_ws/src/install/ros2controlcli:/home/mcr2/ros2_ws/src/install/ros2_controllers_test_nodes:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/home/mcr2/ros2_ws/src/install/basic_comm_params:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/realtime_tools

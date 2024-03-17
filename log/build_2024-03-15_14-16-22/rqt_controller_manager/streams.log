@@ -1,0 +1,53 @@
+[1.956s] Invoking command in '/home/mcr2/ros2_ws/src/ros-controls/ros2_control/rqt_controller_manager': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/build/rqt_controller_manager/prefix_override:/home/mcr2/ros2_ws/src/install/rqt_controller_manager/lib/python3.10/site-packages:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_controller_manager build --build-base /home/mcr2/ros2_ws/src/build/rqt_controller_manager/build install --record /home/mcr2/ros2_ws/src/build/rqt_controller_manager/install.log --single-version-externally-managed
+[2.561s] running egg_info
+[2.564s] creating ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info
+[2.564s] writing ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/PKG-INFO
+[2.565s] writing dependency_links to ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/dependency_links.txt
+[2.566s] writing entry points to ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/entry_points.txt
+[2.567s] writing requirements to ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/requires.txt
+[2.567s] writing top-level names to ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/top_level.txt
+[2.568s] writing manifest file '../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/SOURCES.txt'
+[2.574s] reading manifest file '../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/SOURCES.txt'
+[2.575s] writing manifest file '../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/SOURCES.txt'
+[2.576s] running build
+[2.576s] running build_py
+[2.577s] creating /home/mcr2/ros2_ws/src/build/rqt_controller_manager/build
+[2.577s] creating /home/mcr2/ros2_ws/src/build/rqt_controller_manager/build/lib
+[2.577s] creating /home/mcr2/ros2_ws/src/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[2.578s] copying rqt_controller_manager/main.py -> /home/mcr2/ros2_ws/src/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[2.578s] copying rqt_controller_manager/controller_manager.py -> /home/mcr2/ros2_ws/src/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[2.579s] copying rqt_controller_manager/update_combo.py -> /home/mcr2/ros2_ws/src/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[2.580s] copying rqt_controller_manager/__init__.py -> /home/mcr2/ros2_ws/src/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[2.580s] running install
+[2.581s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.581s]   warnings.warn(
+[2.581s] running install_lib
+[2.583s] creating /home/mcr2/ros2_ws/src/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[2.583s] copying /home/mcr2/ros2_ws/src/build/rqt_controller_manager/build/lib/rqt_controller_manager/main.py -> /home/mcr2/ros2_ws/src/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[2.584s] copying /home/mcr2/ros2_ws/src/build/rqt_controller_manager/build/lib/rqt_controller_manager/controller_manager.py -> /home/mcr2/ros2_ws/src/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[2.584s] copying /home/mcr2/ros2_ws/src/build/rqt_controller_manager/build/lib/rqt_controller_manager/update_combo.py -> /home/mcr2/ros2_ws/src/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[2.585s] copying /home/mcr2/ros2_ws/src/build/rqt_controller_manager/build/lib/rqt_controller_manager/__init__.py -> /home/mcr2/ros2_ws/src/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[2.585s] byte-compiling /home/mcr2/ros2_ws/src/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager/main.py to main.cpython-310.pyc
+[2.587s] byte-compiling /home/mcr2/ros2_ws/src/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager/controller_manager.py to controller_manager.cpython-310.pyc
+[2.606s] byte-compiling /home/mcr2/ros2_ws/src/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager/update_combo.py to update_combo.cpython-310.pyc
+[2.606s] byte-compiling /home/mcr2/ros2_ws/src/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager/__init__.py to __init__.cpython-310.pyc
+[2.606s] running install_data
+[2.606s] creating /home/mcr2/ros2_ws/src/install/rqt_controller_manager/share/ament_index
+[2.607s] creating /home/mcr2/ros2_ws/src/install/rqt_controller_manager/share/ament_index/resource_index
+[2.607s] creating /home/mcr2/ros2_ws/src/install/rqt_controller_manager/share/ament_index/resource_index/packages
+[2.607s] copying resource/rqt_controller_manager -> /home/mcr2/ros2_ws/src/install/rqt_controller_manager/share/ament_index/resource_index/packages
+[2.608s] copying package.xml -> /home/mcr2/ros2_ws/src/install/rqt_controller_manager/share/rqt_controller_manager
+[2.608s] creating /home/mcr2/ros2_ws/src/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[2.608s] copying resource/cm_icon.png -> /home/mcr2/ros2_ws/src/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[2.608s] copying resource/led_off.png -> /home/mcr2/ros2_ws/src/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[2.614s] copying resource/led_green.png -> /home/mcr2/ros2_ws/src/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[2.618s] copying resource/led_red.png -> /home/mcr2/ros2_ws/src/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[2.620s] copying resource/controller_manager.ui -> /home/mcr2/ros2_ws/src/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[2.620s] copying resource/controller_info.ui -> /home/mcr2/ros2_ws/src/install/rqt_controller_manager/share/rqt_controller_manager/resource
+[2.622s] copying plugin.xml -> /home/mcr2/ros2_ws/src/install/rqt_controller_manager/share/rqt_controller_manager
+[2.623s] running install_egg_info
+[2.631s] Copying ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info to /home/mcr2/ros2_ws/src/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager-2.40.0-py3.10.egg-info
+[2.633s] running install_scripts
+[2.674s] Installing rqt_controller_manager script to /home/mcr2/ros2_ws/src/install/rqt_controller_manager/lib/rqt_controller_manager
+[2.674s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/rqt_controller_manager/install.log'
+[2.741s] Invoked command in '/home/mcr2/ros2_ws/src/ros-controls/ros2_control/rqt_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/build/rqt_controller_manager/prefix_override:/home/mcr2/ros2_ws/src/install/rqt_controller_manager/lib/python3.10/site-packages:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_controller_manager build --build-base /home/mcr2/ros2_ws/src/build/rqt_controller_manager/build install --record /home/mcr2/ros2_ws/src/build/rqt_controller_manager/install.log --single-version-externally-managed

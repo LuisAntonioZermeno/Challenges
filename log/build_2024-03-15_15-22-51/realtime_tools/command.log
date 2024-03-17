@@ -1,0 +1,4 @@
+Invoking command in '/home/mcr2/ros2_ws/src/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/realtime_tools -- -j4 -l4
+Invoked command in '/home/mcr2/ros2_ws/src/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/realtime_tools -- -j4 -l4
+Invoking command in '/home/mcr2/ros2_ws/src/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/realtime_tools
+Invoked command in '/home/mcr2/ros2_ws/src/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/realtime_tools

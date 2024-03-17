@@ -1,0 +1,62 @@
+[2.678s] Invoking command in '/home/mcr2/ros2_ws/src/ros-controls/ros2_controllers/rqt_joint_trajectory_controller': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/prefix_override:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_joint_trajectory_controller build --build-base /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build install --record /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/install.log --single-version-externally-managed
+[3.315s] running egg_info
+[3.315s] creating ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info
+[3.316s] writing ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/PKG-INFO
+[3.317s] writing dependency_links to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+[3.324s] writing entry points to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/entry_points.txt
+[3.324s] writing requirements to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/requires.txt
+[3.325s] writing top-level names to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/top_level.txt
+[3.325s] writing manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[3.325s] reading manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[3.325s] writing manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[3.326s] running build
+[3.327s] running build_py
+[3.327s] creating /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build
+[3.329s] creating /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib
+[3.329s] creating /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[3.330s] copying rqt_joint_trajectory_controller/joint_trajectory_controller.py -> /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[3.331s] copying rqt_joint_trajectory_controller/joint_limits_urdf.py -> /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[3.331s] copying rqt_joint_trajectory_controller/utils.py -> /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[3.332s] copying rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py -> /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[3.333s] copying rqt_joint_trajectory_controller/double_editor.py -> /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[3.334s] copying rqt_joint_trajectory_controller/update_combo.py -> /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[3.335s] copying rqt_joint_trajectory_controller/__init__.py -> /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[3.336s] running install
+[3.336s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.337s]   warnings.warn(
+[3.337s] running install_lib
+[3.339s] creating /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[3.340s] copying /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/joint_trajectory_controller.py -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[3.341s] copying /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/joint_limits_urdf.py -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[3.341s] copying /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/utils.py -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[3.342s] copying /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[3.342s] copying /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/double_editor.py -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[3.343s] copying /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/update_combo.py -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[3.343s] copying /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/__init__.py -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[3.344s] byte-compiling /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/joint_trajectory_controller.py to joint_trajectory_controller.cpython-310.pyc
+[3.355s] byte-compiling /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/joint_limits_urdf.py to joint_limits_urdf.cpython-310.pyc
+[3.355s] byte-compiling /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/utils.py to utils.cpython-310.pyc
+[3.362s] byte-compiling /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py to rqt_joint_trajectory_controller.cpython-310.pyc
+[3.365s] byte-compiling /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/double_editor.py to double_editor.cpython-310.pyc
+[3.368s] byte-compiling /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/update_combo.py to update_combo.cpython-310.pyc
+[3.369s] byte-compiling /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/__init__.py to __init__.cpython-310.pyc
+[3.370s] running install_data
+[3.371s] creating /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/share/ament_index
+[3.372s] creating /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/share/ament_index/resource_index
+[3.372s] creating /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+[3.373s] copying resource/rqt_joint_trajectory_controller -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+[3.373s] copying package.xml -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[3.373s] creating /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.374s] copying resource/scope.png -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.374s] copying resource/double_editor.ui -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.375s] copying resource/scope.svg -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.376s] copying resource/off.svg -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.377s] copying resource/joint_trajectory_controller.ui -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.379s] copying resource/on.svg -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[3.380s] copying plugin.xml -> /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[3.383s] running install_egg_info
+[3.386s] Copying ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info to /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller-2.33.0-py3.10.egg-info
+[3.389s] running install_scripts
+[3.443s] Installing rqt_joint_trajectory_controller script to /home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+[3.445s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/install.log'
+[3.501s] Invoked command in '/home/mcr2/ros2_ws/src/ros-controls/ros2_controllers/rqt_joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/controller_manager_msgs/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/prefix_override:/home/mcr2/ros2_ws/src/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_joint_trajectory_controller build --build-base /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/build install --record /home/mcr2/ros2_ws/src/build/rqt_joint_trajectory_controller/install.log --single-version-externally-managed

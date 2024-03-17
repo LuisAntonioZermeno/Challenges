@@ -1,0 +1,11 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/mcr2/ros2_ws/src/install/control_msgs/share/control_msgs/package.sh"
+. "/home/mcr2/ros2_ws/src/install/controller_manager_msgs/share/controller_manager_msgs/package.sh"
+. "/home/mcr2/ros2_ws/src/install/joint_limits/share/joint_limits/package.sh"
+. "/home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/package.sh"
+. "/home/mcr2/ros2_ws/src/install/ros2_control_test_assets/share/ros2_control_test_assets/package.sh"
+. "/home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/package.sh"
+. "/home/mcr2/ros2_ws/src/install/controller_interface/share/controller_interface/package.sh"
+. "/home/mcr2/ros2_ws/src/install/transmission_interface/share/transmission_interface/package.sh"
+. "/home/mcr2/ros2_ws/src/install/controller_manager/share/controller_manager/package.sh"
+. "/home/mcr2/ros2_ws/src/install/ros2controlcli/share/ros2controlcli/package.sh"

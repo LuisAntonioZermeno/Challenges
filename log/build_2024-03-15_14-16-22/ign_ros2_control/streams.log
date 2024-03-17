@@ -1,0 +1,293 @@
+[0.477s] Invoking command in '/home/mcr2/ros2_ws/src/build/ign_ros2_control': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager:/home/mcr2/ros2_ws/src/install/controller_interface:/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/realtime_tools:/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager:/home/mcr2/ros2_ws/src/install/controller_interface:/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/realtime_tools:/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/controller_manager/lib:/home/mcr2/ros2_ws/src/install/controller_interface/lib:/home/mcr2/ros2_ws/src/install/hardware_interface/lib:/home/mcr2/ros2_ws/src/install/realtime_tools/lib:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/controller_manager/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mcr2/ros2_ws/src/ros-controls/gz_ros2_control/ign_ros2_control -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/ign_ros2_control
+[0.744s] -- The C compiler identification is GNU 11.4.0
+[0.967s] -- The CXX compiler identification is GNU 11.4.0
+[1.018s] -- Detecting C compiler ABI info
+[1.321s] -- Detecting C compiler ABI info - done
+[1.341s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.342s] -- Detecting C compile features
+[1.343s] -- Detecting C compile features - done
+[1.352s] -- Detecting CXX compiler ABI info
+[1.751s] -- Detecting CXX compiler ABI info - done
+[1.772s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.773s] -- Detecting CXX compile features
+[1.774s] -- Detecting CXX compile features - done
+[1.799s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.695s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.401s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[3.404s] -- Found controller_manager: 2.40.0 (/home/mcr2/ros2_ws/src/install/controller_manager/share/controller_manager/cmake)
+[3.731s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.812s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.906s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.015s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.144s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.167s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.388s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.708s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.738s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.808s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.854s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.888s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.944s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.019s] -- Looking for pthread.h
+[8.391s] -- Looking for pthread.h - found
+[8.392s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.727s] -- Found Threads: TRUE  
+[11.156s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[11.231s] -- Looking for ignition-gazebo6 -- found version 6.16.0
+[11.265s] -- Searching for dependencies of ignition-gazebo6
+[11.297s] -- Looking for sdformat12 -- found version 12.7.2
+[11.298s] -- Searching for dependencies of sdformat12
+[11.317s] -- Checking for module 'tinyxml2'
+[11.409s] --   Found tinyxml2, version 9.0.0
+[11.633s] -- Looking for ignition-math6 -- found version 6.15.1
+[11.634s] -- Searching for dependencies of ignition-math6
+[11.680s] -- Looking for ignition-utils1 -- found version 1.5.1
+[11.682s] -- Searching for dependencies of ignition-utils1
+[11.730s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[11.732s] -- Searching for dependencies of ignition-plugin1
+[11.738s] -- Searching for <ignition-plugin1> component [loader]
+[11.761s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[11.761s] -- Searching for dependencies of ignition-plugin1-loader
+[11.771s] -- Searching for <ignition-plugin1> component [register]
+[11.799s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[11.801s] -- Searching for dependencies of ignition-plugin1-register
+[11.831s] -- Looking for ignition-transport11 -- found version 11.4.1
+[11.832s] -- Searching for dependencies of ignition-transport11
+[11.951s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[12.027s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[12.047s] -- Checking for module 'libzmq >= 4'
+[12.125s] --   Found libzmq , version 4.3.4
+[12.354s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[12.391s] -- Checking for module 'uuid'
+[12.477s] --   Found uuid, version 2.37.2
+[12.689s] -- Found UUID: TRUE  
+[12.692s] -- Looking for ignition-utils1 -- found version 1.5.1
+[12.694s] -- Searching for dependencies of ignition-utils1
+[12.695s] -- Searching for <ignition-utils1> component [cli]
+[12.718s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[12.720s] -- Searching for dependencies of ignition-utils1-cli
+[12.749s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[12.750s] -- Searching for dependencies of ignition-msgs8
+[12.840s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[12.843s] -- Looking for ignition-math6 -- found version 6.15.1
+[12.908s] -- Searching for <ignition-transport11> component [log]
+[12.938s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[12.938s] -- Searching for dependencies of ignition-transport11-log
+[12.941s] -- Searching for <ignition-transport11> component [parameters]
+[12.965s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[12.976s] -- Searching for dependencies of ignition-transport11-parameters
+[12.992s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[13.017s] -- Looking for ignition-common4 -- found version 4.7.0
+[13.019s] -- Searching for dependencies of ignition-common4
+[13.020s] -- Looking for dlfcn.h - found
+[13.024s] -- Looking for libdl - found
+[13.027s] -- Found DL: TRUE  
+[13.061s] -- Searching for <ignition-common4> component [profiler]
+[13.108s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[13.110s] -- Searching for dependencies of ignition-common4-profiler
+[13.114s] -- Searching for <ignition-common4> component [events]
+[13.138s] -- Looking for ignition-common4-events -- found version 4.7.0
+[13.140s] -- Searching for dependencies of ignition-common4-events
+[13.141s] -- Looking for ignition-math6 -- found version 6.15.1
+[13.145s] -- Searching for <ignition-common4> component [av]
+[13.179s] -- Looking for ignition-common4-av -- found version 4.7.0
+[13.181s] -- Searching for dependencies of ignition-common4-av
+[13.217s] -- Checking for module 'libswscale'
+[13.303s] --   Found libswscale, version 5.9.100
+[13.513s] -- Found SWSCALE: TRUE  
+[13.536s] -- Checking for module 'libavdevice >= 56.4.100'
+[13.622s] --   Found libavdevice , version 58.13.100
+[13.849s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[13.879s] -- Checking for module 'libavformat'
+[13.958s] --   Found libavformat, version 58.76.100
+[14.214s] -- Found AVFORMAT: TRUE  
+[14.239s] -- Checking for module 'libavcodec'
+[14.325s] --   Found libavcodec, version 58.134.100
+[14.559s] -- Found AVCODEC: TRUE  
+[14.593s] -- Checking for module 'libavutil'
+[14.666s] --   Found libavutil, version 56.70.100
+[14.910s] -- Found AVUTIL: TRUE  
+[14.941s] -- Looking for ignition-fuel_tools7 -- found version 7.3.0
+[14.944s] -- Searching for dependencies of ignition-fuel_tools7
+[15.449s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[15.511s] -- Checking for module 'jsoncpp'
+[15.598s] --   Found jsoncpp, version 1.9.5
+[15.825s] -- Found JSONCPP: TRUE  
+[15.849s] -- Checking for module 'libzip'
+[15.946s] --   Found libzip, version 1.7.3
+[16.158s] -- Found ZIP: TRUE  
+[16.161s] -- Looking for ignition-common4 -- found version 4.7.0
+[16.164s] -- Looking for ignition-math6 -- found version 6.15.1
+[16.167s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[16.245s] -- Looking for ignition-gui6 -- found version 6.8.0
+[16.247s] -- Searching for dependencies of ignition-gui6
+[16.412s] -- Looking for ignition-math6 -- found version 6.15.1
+[16.416s] -- Looking for ignition-common4 -- found version 4.7.0
+[16.421s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[16.428s] -- Looking for ignition-transport11 -- found version 11.4.1
+[16.459s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[16.462s] -- Searching for dependencies of ignition-rendering6
+[16.464s] -- Looking for ignition-math6 -- found version 6.15.1
+[16.467s] -- Searching for dependencies of ignition-math6
+[16.468s] -- Searching for <ignition-math6> component [eigen3]
+[16.492s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[16.494s] -- Searching for dependencies of ignition-math6-eigen3
+[16.593s] -- Looking for ignition-common4 -- found version 4.7.0
+[16.595s] -- Searching for dependencies of ignition-common4
+[16.595s] -- Looking for dlfcn.h - found
+[16.595s] -- Looking for libdl - found
+[16.635s] -- Searching for <ignition-common4> component [graphics]
+[16.655s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[16.657s] -- Searching for dependencies of ignition-common4-graphics
+[16.662s] -- Looking for ignition-math6 -- found version 6.15.1
+[16.662s] -- Looking for ignition-utils1 -- found version 1.5.1
+[16.668s] -- Searching for <ignition-common4> component [events]
+[16.669s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[16.671s] -- Searching for dependencies of ignition-plugin1
+[16.672s] -- Searching for <ignition-plugin1> component [all]
+[16.692s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[16.694s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[16.719s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[16.973s] -- Looking for ignition-physics5 -- found version 5.3.2
+[16.975s] -- Searching for dependencies of ignition-physics5
+[16.976s] -- Looking for ignition-math6 -- found version 6.15.1
+[16.977s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[16.979s] -- Looking for ignition-utils1 -- found version 1.5.1
+[16.984s] -- Searching for <ignition-physics5> component [heightmap]
+[17.005s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[17.032s] -- Searching for dependencies of ignition-physics5-heightmap
+[17.033s] -- Looking for ignition-common4 -- found version 4.7.0
+[17.036s] -- Searching for <ignition-physics5> component [mesh]
+[17.064s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[17.067s] -- Searching for dependencies of ignition-physics5-mesh
+[17.069s] -- Looking for ignition-common4 -- found version 4.7.0
+[17.075s] -- Searching for <ignition-physics5> component [sdf]
+[17.103s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[17.106s] -- Searching for dependencies of ignition-physics5-sdf
+[17.109s] -- Looking for sdformat12 -- found version 12.7.2
+[17.166s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[17.168s] -- Searching for dependencies of ignition-sensors6
+[17.293s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[17.298s] -- Looking for ignition-math6 -- found version 6.15.1
+[17.301s] -- Looking for ignition-common4 -- found version 4.7.0
+[17.304s] -- Looking for ignition-transport11 -- found version 11.4.1
+[17.307s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[17.309s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[17.311s] -- Looking for sdformat12 -- found version 12.7.2
+[17.325s] -- Searching for <ignition-sensors6> component [air_pressure]
+[17.353s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.0
+[17.357s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[17.366s] -- Searching for <ignition-sensors6> component [altimeter]
+[17.388s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.0
+[17.390s] -- Searching for dependencies of ignition-sensors6-altimeter
+[17.395s] -- Searching for <ignition-sensors6> component [imu]
+[17.443s] -- Looking for ignition-sensors6-imu -- found version 6.8.0
+[17.451s] -- Searching for dependencies of ignition-sensors6-imu
+[17.459s] -- Searching for <ignition-sensors6> component [force_torque]
+[17.482s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.0
+[17.486s] -- Searching for dependencies of ignition-sensors6-force_torque
+[17.490s] -- Searching for <ignition-sensors6> component [logical_camera]
+[17.522s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.0
+[17.525s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[17.539s] -- Searching for <ignition-sensors6> component [magnetometer]
+[17.564s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.0
+[17.566s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[17.570s] -- Searching for <ignition-sensors6> component [navsat]
+[17.591s] -- Looking for ignition-sensors6-navsat -- found version 6.8.0
+[17.593s] -- Searching for dependencies of ignition-sensors6-navsat
+[17.599s] -- Searching for <ignition-sensors6> component [rendering]
+[17.637s] -- Looking for ignition-sensors6-rendering -- found version 6.8.0
+[17.642s] -- Searching for dependencies of ignition-sensors6-rendering
+[17.645s] -- Searching for <ignition-sensors6> component [lidar]
+[17.672s] -- Looking for ignition-sensors6-lidar -- found version 6.8.0
+[17.675s] -- Searching for dependencies of ignition-sensors6-lidar
+[17.676s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[17.681s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[17.702s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.0
+[17.704s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[17.707s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[17.713s] -- Searching for <ignition-sensors6> component [camera]
+[17.759s] -- Looking for ignition-sensors6-camera -- found version 6.8.0
+[17.761s] -- Searching for dependencies of ignition-sensors6-camera
+[17.762s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[17.767s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[17.790s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.0
+[17.792s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[17.796s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[17.826s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.0
+[17.836s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[17.843s] -- Searching for <ignition-sensors6> component [depth_camera]
+[17.865s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.0
+[17.867s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[17.869s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[17.874s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[17.900s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.0
+[17.903s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[17.904s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[17.909s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[17.946s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.0
+[17.948s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[17.950s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[17.957s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[17.959s] -- Looking for ignition-math6 -- found version 6.15.1
+[17.983s] -- Looking for ignition-utils1 -- found version 1.5.1
+[18.093s] -- Compiling against Ignition Fortress
+[18.097s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[20.040s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[20.694s] -- Added test 'copyright' to check source files copyright and LICENSE
+[20.704s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.705s] -- Configured cppcheck include dirs: /home/mcr2/ros2_ws/src/ros-controls/gz_ros2_control/ign_ros2_control/include
+[20.705s] -- Configured cppcheck exclude dirs and/or files: 
+[20.711s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[20.711s] -- Configured cpplint exclude dirs and/or files: 
+[20.715s] -- Added test 'lint_cmake' to check CMake code style
+[20.721s] -- Added test 'uncrustify' to check C / C++ code style
+[20.722s] -- Configured uncrustify additional arguments: 
+[20.725s] -- Added test 'xmllint' to check XML markup files
+[20.735s] -- Configuring done
+[21.101s] -- Generating done
+[21.113s] -- Build files have been written to: /home/mcr2/ros2_ws/src/build/ign_ros2_control
+[21.185s] Invoked command in '/home/mcr2/ros2_ws/src/build/ign_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager:/home/mcr2/ros2_ws/src/install/controller_interface:/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/realtime_tools:/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager:/home/mcr2/ros2_ws/src/install/controller_interface:/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/realtime_tools:/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/controller_manager/lib:/home/mcr2/ros2_ws/src/install/controller_interface/lib:/home/mcr2/ros2_ws/src/install/hardware_interface/lib:/home/mcr2/ros2_ws/src/install/realtime_tools/lib:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/controller_manager/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mcr2/ros2_ws/src/ros-controls/gz_ros2_control/ign_ros2_control -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/ign_ros2_control
+[21.193s] Invoking command in '/home/mcr2/ros2_ws/src/build/ign_ros2_control': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager:/home/mcr2/ros2_ws/src/install/controller_interface:/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/realtime_tools:/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager:/home/mcr2/ros2_ws/src/install/controller_interface:/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/realtime_tools:/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/controller_manager/lib:/home/mcr2/ros2_ws/src/install/controller_interface/lib:/home/mcr2/ros2_ws/src/install/hardware_interface/lib:/home/mcr2/ros2_ws/src/install/realtime_tools/lib:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/controller_manager/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/ign_ros2_control -- -j4 -l4
+[21.535s] [ 25%] [32mBuilding CXX object CMakeFiles/ign_ros2_control-system.dir/src/ign_ros2_control_plugin.cpp.o[0m
+[78.230s] [ 50%] [32m[1mLinking CXX shared library libign_ros2_control-system.so[0m
+[85.485s] [ 50%] Built target ign_ros2_control-system
+[85.604s] [ 75%] [32mBuilding CXX object CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o[0m
+[138.507s] [100%] [32m[1mLinking CXX shared library libign_hardware_plugins.so[0m
+[141.608s] [100%] Built target ign_hardware_plugins
+[141.668s] Invoked command in '/home/mcr2/ros2_ws/src/build/ign_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager:/home/mcr2/ros2_ws/src/install/controller_interface:/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/realtime_tools:/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager:/home/mcr2/ros2_ws/src/install/controller_interface:/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/realtime_tools:/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/controller_manager/lib:/home/mcr2/ros2_ws/src/install/controller_interface/lib:/home/mcr2/ros2_ws/src/install/hardware_interface/lib:/home/mcr2/ros2_ws/src/install/realtime_tools/lib:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/controller_manager/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/ign_ros2_control -- -j4 -l4
+[141.837s] Invoking command in '/home/mcr2/ros2_ws/src/build/ign_ros2_control': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager:/home/mcr2/ros2_ws/src/install/controller_interface:/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/realtime_tools:/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager:/home/mcr2/ros2_ws/src/install/controller_interface:/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/realtime_tools:/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/controller_manager/lib:/home/mcr2/ros2_ws/src/install/controller_interface/lib:/home/mcr2/ros2_ws/src/install/hardware_interface/lib:/home/mcr2/ros2_ws/src/install/realtime_tools/lib:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/controller_manager/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/ign_ros2_control
+[141.891s] -- Install configuration: ""
+[141.892s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/lib/libign_hardware_plugins.so
+[141.909s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/ign_ros2_control/lib/libign_hardware_plugins.so" to ""
+[141.910s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/include
+[141.911s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/include/ign_ros2_control
+[141.911s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/include/ign_ros2_control/ign_system_interface.hpp
+[141.912s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/include/ign_ros2_control/ign_ros2_control_plugin.hpp
+[141.912s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/include/ign_ros2_control/ign_system.hpp
+[141.914s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/environment/library_path.sh
+[141.915s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/environment/library_path.dsv
+[141.915s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/lib/libign_ros2_control-system.so
+[141.934s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/ign_ros2_control/lib/libign_ros2_control-system.so" to ""
+[141.934s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/ign_hardware_plugins.xml
+[141.936s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control
+[141.937s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control
+[141.938s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/environment/ament_prefix_path.sh
+[141.939s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/environment/ament_prefix_path.dsv
+[141.939s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/environment/path.sh
+[141.954s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/environment/path.dsv
+[141.954s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/local_setup.bash
+[141.955s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/local_setup.sh
+[141.955s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/local_setup.zsh
+[141.956s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/local_setup.dsv
+[141.956s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/package.dsv
+[141.957s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ament_index/resource_index/packages/ign_ros2_control
+[141.958s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ament_index/resource_index/ign_ros2_control__pluginlib__plugin/ign_ros2_control
+[141.959s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[141.969s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[141.971s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/cmake/ign_ros2_controlConfig.cmake
+[141.972s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/cmake/ign_ros2_controlConfig-version.cmake
+[141.973s] -- Installing: /home/mcr2/ros2_ws/src/install/ign_ros2_control/share/ign_ros2_control/package.xml
+[141.978s] Invoked command in '/home/mcr2/ros2_ws/src/build/ign_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager:/home/mcr2/ros2_ws/src/install/controller_interface:/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/realtime_tools:/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/controller_manager:/home/mcr2/ros2_ws/src/install/controller_interface:/home/mcr2/ros2_ws/src/install/hardware_interface:/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/realtime_tools:/home/mcr2/ros2_ws/src/install/controller_manager_msgs:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/controller_manager/lib:/home/mcr2/ros2_ws/src/install/controller_interface/lib:/home/mcr2/ros2_ws/src/install/hardware_interface/lib:/home/mcr2/ros2_ws/src/install/realtime_tools/lib:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/lib:/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/controller_manager/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/ign_ros2_control

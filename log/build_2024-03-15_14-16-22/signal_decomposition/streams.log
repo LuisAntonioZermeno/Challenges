@@ -1,0 +1,46 @@
+[3.808s] Invoking command in '/home/mcr2/ros2_ws/src/signal_decomposition': PYTHONPATH=/home/mcr2/ros2_ws/src/build/signal_decomposition/prefix_override:/home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/signal_decomposition build --build-base /home/mcr2/ros2_ws/src/build/signal_decomposition/build install --record /home/mcr2/ros2_ws/src/build/signal_decomposition/install.log --single-version-externally-managed
+[5.035s] running egg_info
+[5.043s] creating ../build/signal_decomposition/signal_decomposition.egg-info
+[5.044s] writing ../build/signal_decomposition/signal_decomposition.egg-info/PKG-INFO
+[5.046s] writing dependency_links to ../build/signal_decomposition/signal_decomposition.egg-info/dependency_links.txt
+[5.047s] writing entry points to ../build/signal_decomposition/signal_decomposition.egg-info/entry_points.txt
+[5.061s] writing requirements to ../build/signal_decomposition/signal_decomposition.egg-info/requires.txt
+[5.061s] writing top-level names to ../build/signal_decomposition/signal_decomposition.egg-info/top_level.txt
+[5.061s] writing manifest file '../build/signal_decomposition/signal_decomposition.egg-info/SOURCES.txt'
+[5.064s] reading manifest file '../build/signal_decomposition/signal_decomposition.egg-info/SOURCES.txt'
+[5.068s] writing manifest file '../build/signal_decomposition/signal_decomposition.egg-info/SOURCES.txt'
+[5.069s] running build
+[5.070s] running build_py
+[5.071s] creating /home/mcr2/ros2_ws/src/build/signal_decomposition/build
+[5.072s] creating /home/mcr2/ros2_ws/src/build/signal_decomposition/build/lib
+[5.072s] creating /home/mcr2/ros2_ws/src/build/signal_decomposition/build/lib/signal_decomposition
+[5.072s] copying signal_decomposition/signal_reconstruction.py -> /home/mcr2/ros2_ws/src/build/signal_decomposition/build/lib/signal_decomposition
+[5.073s] copying signal_decomposition/signal_generator.py -> /home/mcr2/ros2_ws/src/build/signal_decomposition/build/lib/signal_decomposition
+[5.073s] copying signal_decomposition/__init__.py -> /home/mcr2/ros2_ws/src/build/signal_decomposition/build/lib/signal_decomposition
+[5.074s] running install
+[5.075s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.075s]   warnings.warn(
+[5.075s] running install_lib
+[5.078s] creating /home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages/signal_decomposition
+[5.078s] copying /home/mcr2/ros2_ws/src/build/signal_decomposition/build/lib/signal_decomposition/signal_reconstruction.py -> /home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages/signal_decomposition
+[5.079s] copying /home/mcr2/ros2_ws/src/build/signal_decomposition/build/lib/signal_decomposition/signal_generator.py -> /home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages/signal_decomposition
+[5.079s] copying /home/mcr2/ros2_ws/src/build/signal_decomposition/build/lib/signal_decomposition/__init__.py -> /home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages/signal_decomposition
+[5.082s] byte-compiling /home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages/signal_decomposition/signal_reconstruction.py to signal_reconstruction.cpython-310.pyc
+[5.084s] byte-compiling /home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages/signal_decomposition/signal_generator.py to signal_generator.cpython-310.pyc
+[5.086s] byte-compiling /home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages/signal_decomposition/__init__.py to __init__.cpython-310.pyc
+[5.087s] running install_data
+[5.089s] creating /home/mcr2/ros2_ws/src/install/signal_decomposition/share/ament_index
+[5.090s] creating /home/mcr2/ros2_ws/src/install/signal_decomposition/share/ament_index/resource_index
+[5.091s] creating /home/mcr2/ros2_ws/src/install/signal_decomposition/share/ament_index/resource_index/packages
+[5.092s] copying resource/signal_decomposition -> /home/mcr2/ros2_ws/src/install/signal_decomposition/share/ament_index/resource_index/packages
+[5.092s] copying package.xml -> /home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition
+[5.093s] copying launch/signal_decomposition_launch.py -> /home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition
+[5.094s] creating /home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition/config
+[5.094s] copying config/params.yaml -> /home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition/config
+[5.094s] running install_egg_info
+[5.099s] Copying ../build/signal_decomposition/signal_decomposition.egg-info to /home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages/signal_decomposition-0.0.0-py3.10.egg-info
+[5.103s] running install_scripts
+[5.197s] Installing signal_generator script to /home/mcr2/ros2_ws/src/install/signal_decomposition/lib/signal_decomposition
+[5.198s] Installing signal_reconstruction script to /home/mcr2/ros2_ws/src/install/signal_decomposition/lib/signal_decomposition
+[5.199s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/signal_decomposition/install.log'
+[5.302s] Invoked command in '/home/mcr2/ros2_ws/src/signal_decomposition' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/signal_decomposition/prefix_override:/home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/signal_decomposition build --build-base /home/mcr2/ros2_ws/src/build/signal_decomposition/build install --record /home/mcr2/ros2_ws/src/build/signal_decomposition/install.log --single-version-externally-managed

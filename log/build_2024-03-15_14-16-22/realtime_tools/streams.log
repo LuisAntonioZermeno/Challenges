@@ -1,0 +1,110 @@
+[0.258s] Invoking command in '/home/mcr2/ros2_ws/src/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mcr2/ros2_ws/src/ros-controls/realtime_tools -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/realtime_tools
+[1.080s] -- The CXX compiler identification is GNU 11.4.0
+[1.129s] -- Detecting CXX compiler ABI info
+[1.607s] -- Detecting CXX compiler ABI info - done
+[1.634s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.634s] -- Detecting CXX compile features
+[1.635s] -- Detecting CXX compile features - done
+[1.666s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.346s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.959s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[3.444s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.486s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.584s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.883s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.444s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.472s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.293s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.429s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.696s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.838s] -- Looking for C++ include pthread.h
+[6.306s] -- Looking for C++ include pthread.h - found
+[6.307s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.806s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.808s] -- Found Threads: TRUE  
+[7.657s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[8.177s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[8.223s] -- Found test_msgs: 1.2.1 (/opt/ros/humble/share/test_msgs/cmake)
+[8.619s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[8.858s] -- The C compiler identification is GNU 11.4.0
+[8.916s] -- Detecting C compiler ABI info
+[9.304s] -- Detecting C compiler ABI info - done
+[9.351s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.352s] -- Detecting C compile features
+[9.352s] -- Detecting C compile features - done
+[9.424s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[9.429s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.780s] -- Configuring done
+[9.985s] -- Generating done
+[10.003s] -- Build files have been written to: /home/mcr2/ros2_ws/src/build/realtime_tools
+[10.173s] Invoked command in '/home/mcr2/ros2_ws/src/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mcr2/ros2_ws/src/ros-controls/realtime_tools -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/realtime_tools
+[10.176s] Invoking command in '/home/mcr2/ros2_ws/src/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/realtime_tools -- -j4 -l4
+[10.468s] [  4%] [32mBuilding CXX object CMakeFiles/realtime_tools.dir/src/realtime_clock.cpp.o[0m
+[10.505s] [  9%] [32mBuilding CXX object CMakeFiles/thread_priority.dir/src/thread_priority.cpp.o[0m
+[10.558s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[10.670s] [ 19%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[14.198s] [ 23%] [32m[1mLinking CXX shared library libthread_priority.so[0m
+[16.834s] [ 23%] Built target thread_priority
+[21.341s] [ 28%] [32m[1mLinking CXX shared library librealtime_tools.so[0m
+[22.238s] [ 28%] Built target realtime_tools
+[24.352s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[26.237s] [ 33%] Built target gmock_main
+[32.931s] [ 38%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[45.064s] [ 42%] [32m[1mLinking CXX static library libgmock.a[0m
+[45.539s] [ 42%] Built target gmock
+[45.639s] [ 47%] [32mBuilding CXX object CMakeFiles/realtime_box_tests.dir/test/realtime_box_tests.cpp.o[0m
+[52.549s] [ 52%] [32m[1mLinking CXX executable realtime_box_tests[0m
+[53.461s] [ 52%] Built target realtime_box_tests
+[53.605s] [ 57%] [32mBuilding CXX object CMakeFiles/realtime_publisher_tests_non_polling.dir/test/realtime_publisher_tests_non_polling.cpp.o[0m
+[99.640s] [ 61%] [32m[1mLinking CXX executable realtime_publisher_tests_non_polling[0m
+[102.269s] [ 61%] Built target realtime_publisher_tests_non_polling
+[102.445s] [ 66%] [32mBuilding CXX object CMakeFiles/realtime_publisher_tests.dir/test/realtime_publisher_tests.cpp.o[0m
+[144.269s] [ 71%] [32m[1mLinking CXX executable realtime_publisher_tests[0m
+[146.762s] [ 71%] Built target realtime_publisher_tests
+[146.846s] [ 76%] [32mBuilding CXX object CMakeFiles/realtime_server_goal_handle_tests.dir/test/realtime_server_goal_handle_tests.cpp.o[0m
+[168.970s] [ 80%] [32m[1mLinking CXX executable realtime_server_goal_handle_tests[0m
+[170.681s] [ 80%] Built target realtime_server_goal_handle_tests
+[170.888s] [ 85%] [32mBuilding CXX object CMakeFiles/realtime_clock_tests.dir/test/realtime_clock_tests.cpp.o[0m
+[179.471s] [ 90%] [32m[1mLinking CXX executable realtime_clock_tests[0m
+[180.716s] [ 90%] Built target realtime_clock_tests
+[180.848s] [ 95%] [32mBuilding CXX object CMakeFiles/realtime_buffer_tests.dir/test/realtime_buffer_tests.cpp.o[0m
+[187.840s] [100%] [32m[1mLinking CXX executable realtime_buffer_tests[0m
+[188.702s] [100%] Built target realtime_buffer_tests
+[188.757s] Invoked command in '/home/mcr2/ros2_ws/src/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/realtime_tools -- -j4 -l4
+[189.157s] Invoking command in '/home/mcr2/ros2_ws/src/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/realtime_tools
+[189.184s] -- Install configuration: ""
+[189.186s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools
+[189.186s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools
+[189.187s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.h
+[189.187s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools/thread_priority.hpp
+[189.188s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.h
+[189.188s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h
+[189.189s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.h
+[189.189s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h
+[189.190s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/lib/librealtime_tools.so
+[189.192s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/realtime_tools/lib/librealtime_tools.so" to ""
+[189.192s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/lib/libthread_priority.so
+[189.194s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/realtime_tools/lib/libthread_priority.so" to ""
+[189.194s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/environment/library_path.sh
+[189.195s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/environment/library_path.dsv
+[189.195s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/ament_index/resource_index/package_run_dependencies/realtime_tools
+[189.196s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/ament_index/resource_index/parent_prefix_path/realtime_tools
+[189.197s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.sh
+[189.198s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.dsv
+[189.199s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/environment/path.sh
+[189.200s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/environment/path.dsv
+[189.200s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/local_setup.bash
+[189.201s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/local_setup.sh
+[189.202s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/local_setup.zsh
+[189.203s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/local_setup.dsv
+[189.204s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/package.dsv
+[189.204s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/ament_index/resource_index/packages/realtime_tools
+[189.205s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport.cmake
+[189.205s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport-noconfig.cmake
+[189.206s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_targets-extras.cmake
+[189.207s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[189.217s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig.cmake
+[189.218s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig-version.cmake
+[189.218s] -- Installing: /home/mcr2/ros2_ws/src/install/realtime_tools/share/realtime_tools/package.xml
+[189.236s] Invoked command in '/home/mcr2/ros2_ws/src/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/realtime_tools

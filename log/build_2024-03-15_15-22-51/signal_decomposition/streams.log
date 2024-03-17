@@ -1,0 +1,24 @@
+[5.545s] Invoking command in '/home/mcr2/ros2_ws/src/signal_decomposition': PYTHONPATH=/home/mcr2/ros2_ws/src/build/signal_decomposition/prefix_override:/home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/signal_decomposition build --build-base /home/mcr2/ros2_ws/src/build/signal_decomposition/build install --record /home/mcr2/ros2_ws/src/build/signal_decomposition/install.log --single-version-externally-managed
+[6.925s] running egg_info
+[6.928s] writing ../build/signal_decomposition/signal_decomposition.egg-info/PKG-INFO
+[6.929s] writing dependency_links to ../build/signal_decomposition/signal_decomposition.egg-info/dependency_links.txt
+[6.929s] writing entry points to ../build/signal_decomposition/signal_decomposition.egg-info/entry_points.txt
+[6.929s] writing requirements to ../build/signal_decomposition/signal_decomposition.egg-info/requires.txt
+[6.929s] writing top-level names to ../build/signal_decomposition/signal_decomposition.egg-info/top_level.txt
+[6.930s] reading manifest file '../build/signal_decomposition/signal_decomposition.egg-info/SOURCES.txt'
+[6.930s] writing manifest file '../build/signal_decomposition/signal_decomposition.egg-info/SOURCES.txt'
+[6.930s] running build
+[6.930s] running build_py
+[6.930s] running install
+[6.931s] running install_lib
+[6.931s] running install_data
+[6.931s] running install_egg_info
+[6.931s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.932s]   warnings.warn(
+[6.970s] removing '/home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages/signal_decomposition-0.0.0-py3.10.egg-info' (and everything under it)
+[6.974s] Copying ../build/signal_decomposition/signal_decomposition.egg-info to /home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages/signal_decomposition-0.0.0-py3.10.egg-info
+[7.047s] running install_scripts
+[7.237s] Installing signal_generator script to /home/mcr2/ros2_ws/src/install/signal_decomposition/lib/signal_decomposition
+[7.237s] Installing signal_reconstruction script to /home/mcr2/ros2_ws/src/install/signal_decomposition/lib/signal_decomposition
+[7.245s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/signal_decomposition/install.log'
+[7.629s] Invoked command in '/home/mcr2/ros2_ws/src/signal_decomposition' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/signal_decomposition/prefix_override:/home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/signal_decomposition build --build-base /home/mcr2/ros2_ws/src/build/signal_decomposition/build install --record /home/mcr2/ros2_ws/src/build/signal_decomposition/install.log --single-version-externally-managed

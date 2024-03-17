@@ -1,0 +1,43 @@
+[3.197s] Invoking command in '/home/mcr2/ros2_ws/src/courseworks': PYTHONPATH=/home/mcr2/ros2_ws/src/build/courseworks/prefix_override:/home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/courseworks build --build-base /home/mcr2/ros2_ws/src/build/courseworks/build install --record /home/mcr2/ros2_ws/src/build/courseworks/install.log --single-version-externally-managed
+[4.402s] running egg_info
+[4.405s] creating ../build/courseworks/courseworks.egg-info
+[4.406s] writing ../build/courseworks/courseworks.egg-info/PKG-INFO
+[4.407s] writing dependency_links to ../build/courseworks/courseworks.egg-info/dependency_links.txt
+[4.408s] writing entry points to ../build/courseworks/courseworks.egg-info/entry_points.txt
+[4.410s] writing requirements to ../build/courseworks/courseworks.egg-info/requires.txt
+[4.410s] writing top-level names to ../build/courseworks/courseworks.egg-info/top_level.txt
+[4.411s] writing manifest file '../build/courseworks/courseworks.egg-info/SOURCES.txt'
+[4.417s] reading manifest file '../build/courseworks/courseworks.egg-info/SOURCES.txt'
+[4.419s] writing manifest file '../build/courseworks/courseworks.egg-info/SOURCES.txt'
+[4.420s] running build
+[4.420s] running build_py
+[4.422s] creating /home/mcr2/ros2_ws/src/build/courseworks/build
+[4.422s] creating /home/mcr2/ros2_ws/src/build/courseworks/build/lib
+[4.423s] creating /home/mcr2/ros2_ws/src/build/courseworks/build/lib/courseworks
+[4.423s] copying courseworks/process.py -> /home/mcr2/ros2_ws/src/build/courseworks/build/lib/courseworks
+[4.425s] copying courseworks/signal_generator.py -> /home/mcr2/ros2_ws/src/build/courseworks/build/lib/courseworks
+[4.434s] copying courseworks/__init__.py -> /home/mcr2/ros2_ws/src/build/courseworks/build/lib/courseworks
+[4.436s] running install
+[4.436s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.442s]   warnings.warn(
+[4.442s] running install_lib
+[4.442s] creating /home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks
+[4.443s] copying /home/mcr2/ros2_ws/src/build/courseworks/build/lib/courseworks/process.py -> /home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks
+[4.443s] copying /home/mcr2/ros2_ws/src/build/courseworks/build/lib/courseworks/signal_generator.py -> /home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks
+[4.443s] copying /home/mcr2/ros2_ws/src/build/courseworks/build/lib/courseworks/__init__.py -> /home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks
+[4.444s] byte-compiling /home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks/process.py to process.cpython-310.pyc
+[4.477s] byte-compiling /home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks/signal_generator.py to signal_generator.cpython-310.pyc
+[4.478s] byte-compiling /home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks/__init__.py to __init__.cpython-310.pyc
+[4.478s] running install_data
+[4.485s] creating /home/mcr2/ros2_ws/src/install/courseworks/share/ament_index
+[4.486s] creating /home/mcr2/ros2_ws/src/install/courseworks/share/ament_index/resource_index
+[4.488s] creating /home/mcr2/ros2_ws/src/install/courseworks/share/ament_index/resource_index/packages
+[4.488s] copying resource/courseworks -> /home/mcr2/ros2_ws/src/install/courseworks/share/ament_index/resource_index/packages
+[4.494s] copying package.xml -> /home/mcr2/ros2_ws/src/install/courseworks/share/courseworks
+[4.495s] running install_egg_info
+[4.502s] Copying ../build/courseworks/courseworks.egg-info to /home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks-0.0.0-py3.10.egg-info
+[4.505s] running install_scripts
+[4.657s] Installing process script to /home/mcr2/ros2_ws/src/install/courseworks/lib/courseworks
+[4.657s] Installing signal_generator script to /home/mcr2/ros2_ws/src/install/courseworks/lib/courseworks
+[4.657s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/courseworks/install.log'
+[4.730s] Invoked command in '/home/mcr2/ros2_ws/src/courseworks' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/courseworks/prefix_override:/home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/courseworks build --build-base /home/mcr2/ros2_ws/src/build/courseworks/build install --record /home/mcr2/ros2_ws/src/build/courseworks/install.log --single-version-externally-managed

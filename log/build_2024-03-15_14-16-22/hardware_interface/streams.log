@@ -1,0 +1,160 @@
+[0.606s] Invoking command in '/home/mcr2/ros2_ws/src/build/hardware_interface': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mcr2/ros2_ws/src/ros-controls/ros2_control/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/hardware_interface
+[0.800s] -- The C compiler identification is GNU 11.4.0
+[1.017s] -- The CXX compiler identification is GNU 11.4.0
+[1.032s] -- Detecting C compiler ABI info
+[1.298s] -- Detecting C compiler ABI info - done
+[1.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.312s] -- Detecting C compile features
+[1.313s] -- Detecting C compile features - done
+[1.319s] -- Detecting CXX compiler ABI info
+[1.635s] -- Detecting CXX compiler ABI info - done
+[1.636s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.636s] -- Detecting CXX compile features
+[1.636s] -- Detecting CXX compile features - done
+[1.659s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.215s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.592s] -- Found control_msgs: 4.4.0 (/home/mcr2/ros2_ws/src/install/control_msgs/share/control_msgs/cmake)
+[2.763s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.797s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.829s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.889s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.954s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.346s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[4.392s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[4.517s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.736s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.748s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.863s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.063s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.082s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.120s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.140s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.159s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.196s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.259s] -- Looking for pthread.h
+[5.490s] -- Looking for pthread.h - found
+[5.490s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.717s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.720s] -- Found Threads: TRUE  
+[6.063s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.082s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[6.083s] -- Found ros2_control_test_assets: 2.40.0 (/home/mcr2/ros2_ws/src/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[6.097s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[6.130s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[6.133s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.334s] -- Configuring done
+[6.505s] -- Generating done
+[6.519s] -- Build files have been written to: /home/mcr2/ros2_ws/src/build/hardware_interface
+[6.554s] Invoked command in '/home/mcr2/ros2_ws/src/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mcr2/ros2_ws/src/ros-controls/ros2_control/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/hardware_interface
+[6.557s] Invoking command in '/home/mcr2/ros2_ws/src/build/hardware_interface': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/hardware_interface -- -j4 -l4
+[6.743s] [  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[6.747s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[6.747s] [  8%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/actuator.cpp.o[0m
+[6.765s] [ 11%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/component_parser.cpp.o[0m
+[12.176s] [ 14%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/resource_manager.cpp.o[0m
+[16.933s] [ 17%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[17.586s] [ 17%] Built target gmock_main
+[28.866s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[40.202s] [ 23%] [32m[1mLinking CXX static library libgmock.a[0m
+[40.743s] [ 26%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/system.cpp.o[0m
+[40.745s] [ 26%] Built target gmock
+[43.303s] [ 29%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/lexical_casts.cpp.o[0m
+[44.245s] [ 32%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/sensor.cpp.o[0m
+[46.438s] [ 35%] [32m[1mLinking CXX shared library libhardware_interface.so[0m
+[47.372s] [ 35%] Built target hardware_interface
+[47.475s] [ 38%] [32mBuilding CXX object CMakeFiles/test_macros.dir/test/test_macros.cpp.o[0m
+[50.788s] [ 41%] [32m[1mLinking CXX executable test_macros[0m
+[51.285s] [ 41%] Built target test_macros
+[51.368s] [ 44%] [32mBuilding CXX object CMakeFiles/test_inst_hardwares.dir/test/test_inst_hardwares.cpp.o[0m
+[55.322s] [ 47%] [32m[1mLinking CXX executable test_inst_hardwares[0m
+[55.934s] [ 47%] Built target test_inst_hardwares
+[56.014s] [ 50%] [32mBuilding CXX object CMakeFiles/test_joint_handle.dir/test/test_handle.cpp.o[0m
+[59.580s] [ 52%] [32m[1mLinking CXX executable test_joint_handle[0m
+[60.285s] [ 52%] Built target test_joint_handle
+[60.363s] [ 55%] [32mBuilding CXX object CMakeFiles/test_component_interfaces.dir/test/test_component_interfaces.cpp.o[0m
+[66.991s] [ 58%] [32m[1mLinking CXX executable test_component_interfaces[0m
+[67.984s] [ 58%] Built target test_component_interfaces
+[68.068s] [ 61%] [32mBuilding CXX object CMakeFiles/test_component_parser.dir/test/test_component_parser.cpp.o[0m
+[72.140s] [ 64%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_single_joint_actuator.cpp.o[0m
+[73.268s] [ 67%] [32mBuilding CXX object CMakeFiles/fake_components.dir/src/mock_components/generic_system.cpp.o[0m
+[74.421s] [ 70%] [32mBuilding CXX object CMakeFiles/mock_components.dir/src/mock_components/generic_system.cpp.o[0m
+[78.166s] [ 73%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_force_torque_sensor.cpp.o[0m
+[79.613s] [ 76%] [32m[1mLinking CXX executable test_component_parser[0m
+[82.323s] [ 79%] [32mBuilding CXX object CMakeFiles/fake_components.dir/src/mock_components/fake_generic_system.cpp.o[0m
+[82.675s] [ 79%] Built target test_component_parser
+[83.434s] [ 82%] [32m[1mLinking CXX shared library libmock_components.so[0m
+[84.511s] [ 82%] Built target mock_components
+[85.276s] [ 85%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_two_joint_system.cpp.o[0m
+[87.069s] [ 88%] [32m[1mLinking CXX shared library libfake_components.so[0m
+[87.918s] [ 88%] Built target fake_components
+[89.149s] [ 91%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_system_with_command_modes.cpp.o[0m
+[92.685s] [ 94%] [32m[1mLinking CXX shared library libtest_hardware_components.so[0m
+[93.232s] [ 94%] Built target test_hardware_components
+[93.304s] [ 97%] [32mBuilding CXX object CMakeFiles/test_generic_system.dir/test/mock_components/test_generic_system.cpp.o[0m
+[101.238s] [100%] [32m[1mLinking CXX executable test_generic_system[0m
+[102.331s] [100%] Built target test_generic_system
+[102.373s] Invoked command in '/home/mcr2/ros2_ws/src/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/hardware_interface -- -j4 -l4
+[102.803s] Invoking command in '/home/mcr2/ros2_ws/src/build/hardware_interface': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/hardware_interface
+[102.822s] -- Install configuration: ""
+[102.823s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/mock_components_plugin_description.xml
+[102.825s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/fake_components_plugin_description.xml
+[102.827s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include
+[102.828s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/fake_components
+[102.829s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/fake_components/visibility_control.h
+[102.830s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/fake_components/generic_system.hpp
+[102.831s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface
+[102.831s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/types
+[102.832s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp
+[102.833s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp
+[102.833s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp
+[102.834s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/sensor_interface.hpp
+[102.835s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/system_interface.hpp
+[102.836s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/hardware_component_info.hpp
+[102.836s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/sensor.hpp
+[102.838s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/hardware_info.hpp
+[102.838s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/macros.hpp
+[102.839s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/visibility_control.h
+[102.839s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/component_parser.hpp
+[102.840s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/controller_info.hpp
+[102.841s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/resource_manager.hpp
+[102.841s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/handle.hpp
+[102.842s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/loaned_command_interface.hpp
+[102.842s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/system.hpp
+[102.843s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/actuator.hpp
+[102.844s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/actuator_interface.hpp
+[102.844s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp
+[102.845s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/hardware_interface/lexical_casts.hpp
+[102.847s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/mock_components
+[102.847s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/mock_components/visibility_control.h
+[102.849s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/include/mock_components/generic_system.hpp
+[102.850s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/lib/libfake_components.so
+[102.855s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/hardware_interface/lib/libfake_components.so" to ""
+[102.855s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/lib/libmock_components.so
+[102.870s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/hardware_interface/lib/libmock_components.so" to ""
+[102.870s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/lib/libhardware_interface.so
+[102.878s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/hardware_interface/lib/libhardware_interface.so" to ""
+[102.880s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/lib/libtest_hardware_components.so
+[102.889s] -- Set runtime path of "/home/mcr2/ros2_ws/src/install/hardware_interface/lib/libtest_hardware_components.so" to ""
+[102.890s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml
+[102.892s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+[102.894s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+[102.895s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[102.895s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[102.896s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[102.896s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[102.897s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/environment/path.sh
+[102.897s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[102.898s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/local_setup.bash
+[102.899s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/local_setup.sh
+[102.899s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[102.900s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[102.900s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/package.dsv
+[102.901s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[102.907s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface
+[102.907s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[102.908s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[102.908s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[102.908s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[102.908s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[102.908s] -- Installing: /home/mcr2/ros2_ws/src/install/hardware_interface/share/hardware_interface/package.xml
+[102.923s] Invoked command in '/home/mcr2/ros2_ws/src/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/ros2_control_test_assets:/home/mcr2/ros2_ws/src/install/control_msgs:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/hardware_interface
